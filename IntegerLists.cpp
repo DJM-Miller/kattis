@@ -1,3 +1,7 @@
+///THIS THING IS UGLY!!!!!
+
+
+
 #include <iostream>
 #include <cstring>
 #include <cmath>
@@ -29,11 +33,11 @@ int main()
 
         cin >> command;
 
-        getline(cin,x);//line with size of list
+       // getline(cin,x);//line with size of list
         //Fill initial deque
-        getline(cin,x);//reads list as string
-        mydq = extractIntegers(x);
-      /*  cin >> n;
+       // getline(cin,x);//reads list as string
+       // mydq = extractIntegers(x);
+        cin >> n;
         cin.ignore();
         for(int i = 0; i < n; i++) {
             cin.ignore();
@@ -44,7 +48,7 @@ int main()
         cin.ignore();
         if(n == 0) {
             cin.ignore();
-        }*/
+        }
 
 
         for(int i=0; i<command.length();i++)
@@ -77,7 +81,7 @@ int main()
         {
             //if(!mydq.empty())
                 //display(mydq,forward);
-                cout << "[";
+                
              while(!mydq.empty()) {
                 if(forward) {
                     cout << mydq.front();
