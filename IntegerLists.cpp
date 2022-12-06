@@ -81,7 +81,7 @@ int main()
         {
             //if(!mydq.empty())
                 //display(mydq,forward);
-                
+            cout << "["; 
              while(!mydq.empty()) {
                 if(forward) {
                     cout << mydq.front();
